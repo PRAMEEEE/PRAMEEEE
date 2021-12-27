@@ -1,0 +1,14 @@
+#this is our first program, 
+echo "hello welcome to FOSS lab" 
+a=10 
+b=20 
+b1=31 
+echo "a=$a,b=$b" 
+c=`expr $a + $b` 
+d=`expr $a - $b` 
+e=`expr $a \* $b` 
+f=`expr $b / $a` 
+echo "$c,$d,$e,$f" 
+sum=`expr $a + $b + $b1` 
+avrg=`expr $sum / 3` 
+echo $sum, $avrg
