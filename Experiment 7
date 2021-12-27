@@ -1,0 +1,9 @@
+echo "Enter value a " 
+read a 
+i=1 
+while [ $i -le 10 ] 
+do 
+m=`expr $a \* $i` 
+echo "$a x $i = $m" 
+i=`expr $i + 1` 
+done
